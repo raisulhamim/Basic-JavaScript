@@ -47,3 +47,10 @@ if (age > 23) {
     console.log("agay boro hou tarpor prem koiro");
 
 }
+
+
+for(let h=1; h<100; h++){
+    console.log("i love you")
+
+
+}
