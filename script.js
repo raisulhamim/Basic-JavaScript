@@ -62,3 +62,14 @@ while(i<=10){
     console.log(namta+"x"+i+"="+namta*i);
     i++
 }
+
+
+let h=Number(prompt("Enter a first value"))
+let k=Number(prompt("Enter a last value"))
+
+for(let f=h; f<=k; f++){
+    console.log("~~~~~~~~~~~~~");
+    for(let i=1; i<=10;i++){
+        console.log(f+"x"+i+"="+f*i);
+    }
+}
