@@ -54,3 +54,11 @@ for(let h=1; h<100; h++){
 
 
 }
+
+
+let namta=3
+let i=1
+while(i<=10){
+    console.log(namta+"x"+i+"="+namta*i);
+    i++
+}
