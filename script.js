@@ -73,3 +73,8 @@ for(let f=h; f<=k; f++){
         console.log(f+"x"+i+"="+f*i);
     }
 }
+
+for(let i=0; i<=10; i++){
+    console.log(i);
+}
+
