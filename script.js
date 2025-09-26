@@ -78,3 +78,6 @@ for(let i=0; i<=10; i++){
     console.log(i);
 }
 
+let arr=[0,39,22,22,258,5859,34,32,3,31,46,567,236]
+
+console.log(arr[8])
