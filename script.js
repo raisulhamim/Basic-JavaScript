@@ -81,3 +81,13 @@ for(let i=0; i<=10; i++){
 let arr=[0,39,22,22,258,5859,34,32,3,31,46,567,236]
 
 console.log(arr[8])
+
+
+let obj={
+     name:"raisul",
+     age:21,
+     email:"raisulhamim.dev@gmail.com",
+     number:38749858
+
+}
+console.log(obj.email)
