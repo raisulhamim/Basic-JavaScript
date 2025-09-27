@@ -49,13 +49,15 @@ if (age > 23) {
 }
 
 
+// ========LOOP==========
+
 for (let h = 1; h < 100; h++) {
     console.log("i love you")
 
 
 }
 
-
+// ======= NAMTA ==========
 let namta = 3
 let i = 1
 while (i <= 10) {
@@ -63,6 +65,7 @@ while (i <= 10) {
     i++
 }
 
+// =======USER INPUT LOOP===========
 
 let h = Number(prompt("Enter a first value"))
 let k = Number(prompt("Enter a last value"))
@@ -78,10 +81,14 @@ for (let i = 0; i <= 10; i++) {
     console.log(i);
 }
 
+// =========ARRAY=========
+
 let arr = [0, 39, 22, 22, 258, 5859, 34, 32, 3, 31, 46, 567, 236]
 
 console.log(arr[8])
 
+
+// ==========OBJECT=========
 
 let obj = {
     name: "raisul",
@@ -92,6 +99,9 @@ let obj = {
 }
 console.log(obj.email);
 
+
+
+// ========ARRAY OBJECT=====
 
 let object= [{
     name: "raisul",
