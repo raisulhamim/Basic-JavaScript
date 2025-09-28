@@ -122,11 +122,13 @@ let object= [{
     number: 387583553
 }
 ]
+  
+    
+console.log(object[2].name+ object[2].age);
+  
 
 
-console.log(object[2].age);
-
-
+ 
 
 let arr=["akib", "rakib", "sakib","sofik", "joy", "roy", "alif","raisul"]
 
@@ -134,3 +136,5 @@ let arr=["akib", "rakib", "sakib","sofik", "joy", "roy", "alif","raisul"]
 for(let i=0; i<arr.length; i++){
     console.log(arr[i]);
 }
+
+
