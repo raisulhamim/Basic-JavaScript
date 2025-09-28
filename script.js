@@ -83,9 +83,9 @@ for (let i = 0; i <= 10; i++) {
 
 // =========ARRAY=========
 
-let arr = [0, 39, 22, 22, 258, 5859, 34, 32, 3, 31, 46, 567, 236]
+// let arr = [0, 39, 22, 22, 258, 5859, 34, 32, 3, 31, 46, 567, 236]
 
-console.log(arr[8])
+// console.log(arr[8])
 
 
 // ==========OBJECT=========
@@ -125,3 +125,12 @@ let object= [{
 
 
 console.log(object[2].age);
+
+
+
+let arr=["akib", "rakib", "sakib","sofik", "joy", "roy", "alif","raisul"]
+
+
+for(let i=0; i<arr.length; i++){
+    console.log(arr[i]);
+}
