@@ -67,29 +67,29 @@
 
 // =======USER INPUT LOOP===========
 
-let firstvalue = Number(prompt("Enter a first value"));
-let lastvalue = Number(prompt("Enter a last value"));
-let reject1 = Number(prompt("Enter a first reject value")); 
-let reject2 = Number(prompt("Enter a second reject value")); 
+// let firstvalue = Number(prompt("Enter a first value"));
+// let lastvalue = Number(prompt("Enter a last value"));
+// let reject1 = Number(prompt("Enter a first reject value")); 
+// let reject2 = Number(prompt("Enter a second reject value")); 
 
-for (let h = firstvalue; h <= lastvalue; h++) {
-  console.log( h,"এর নামতা start ====");
+// for (let h = firstvalue; h <= lastvalue; h++) {
+//   console.log( h,"এর নামতা start ====");
 
-  for (let i = 1; i <= 10; i++) {
-    let result = h * i;
+//   for (let i = 1; i <= 10; i++) {
+//     let result = h * i;
 
     
-    if (result === reject1 ||result === reject2 ) {
-      continue;
-    }
+//     if (result === reject1 ||result === reject2 ) {
+//       continue;
+//     }
 
-    console.log(h + " x " + i + " = " +result);}
-    if(h<lastvalue){
-        console.log(h,"এর নামতা end ====")
-    }else{
-          console.log("সকল নামতার সমাপ্তি ঘোষণা করা হলো")
-    }
-}
+//     console.log(h + " x " + i + " = " +result);}
+//     if(h<lastvalue){
+//         console.log(h,"এর নামতা end ====")
+//     }else{
+//           console.log("সকল নামতার সমাপ্তি ঘোষণা করা হলো")
+//     }
+// }
 
 
 
@@ -149,4 +149,8 @@ for (let h = firstvalue; h <= lastvalue; h++) {
 //     console.log(arr[i],i);
 // }
 
-
+function display() {
+  console.log("raisul islam hamim");
+  
+}
+display()
