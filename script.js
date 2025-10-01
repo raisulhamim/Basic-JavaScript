@@ -149,8 +149,13 @@
 //     console.log(arr[i],i);
 // }
 
-function display() {
-  console.log("raisul islam hamim");
+// function display() {
+//   console.log("raisul islam hamim");
+  
+// }
+// display()
+function display(num1,num2) {
+  console.log(num1+num2);
   
 }
-display()
+display(25,23)
