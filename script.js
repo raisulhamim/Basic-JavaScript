@@ -159,3 +159,4 @@ function display(num1,num2) {
   
 }
 display(25,23)
+display(2,4)
