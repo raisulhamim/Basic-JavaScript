@@ -154,8 +154,8 @@
   
 // }
 // display()
-function display(num1,num2) {
-  return num1-num2;
+function display(name) {
+  console.log(`Welcome ${name} sir`);
   
 }
-console.log(display(3,4));
+display("Raisul Islam Hamim");
