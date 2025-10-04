@@ -159,3 +159,11 @@ function display(name) {
   
 }
 display("Raisul Islam Hamim");
+
+
+
+let see=(n1,n2)=>{
+  console.log(n1-n2);
+
+}
+see(46,56)
