@@ -154,16 +154,23 @@
   
 // }
 // display()
-function display(name) {
-  console.log(`Welcome ${name} sir`);
+// function display(name) {
+//   console.log(`Welcome ${name} sir`);
   
-}
-display("Raisul Islam Hamim");
+// }
+// display("Raisul Islam Hamim");
 
 
 
-let see=(n1,n2)=>{
-  console.log(n1-n2);
+// let see=(n1,n2)=>{
+//   console.log(n1-n2);
 
-}
-see(46,56)
+// }
+// see(46,56)
+
+
+
+let display=()=>console.log("Hamim");
+
+
+display()
