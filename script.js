@@ -170,7 +170,18 @@
 
 
 
-let display=()=>console.log("Hamim");
+// let display=()=>console.log("Hamim");
 
 
-display()
+// display()
+
+function display(n1,n2){
+    return n1+n2
+}
+let result=display(12,34)
+if(result>30){
+   console.log("Hello Sir");
+}else{
+    console.log("Bye Sir");
+
+}
