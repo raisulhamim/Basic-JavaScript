@@ -175,13 +175,19 @@
 
 // display()
 
-function display(n1,n2){
-    return n1+n2
-}
-let result=display(12,34)
-if(result>30){
-   console.log("Hello Sir");
-}else{
-    console.log("Bye Sir");
+// function display(n1,n2){
+//     return n1+n2
+// }
+// let result=display(12,34)
+// if(result>30){
+//    console.log("Hello Sir");
+// }else{
+//     console.log("Bye Sir");
 
+// }
+
+function username(name){
+    let utterance = new SpeechSynthesisUtterance(`Hello ${name} sir Good Morning`);
+speechSynthesis.speak(utterance);
 }
+username("raisul islam hamim")
