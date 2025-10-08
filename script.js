@@ -78,7 +78,7 @@
 //   for (let i = 1; i <= 10; i++) {
 //     let result = h * i;
 
-    
+
 //     if (result === reject1 ||result === reject2 ) {
 //       continue;
 //     }
@@ -134,13 +134,13 @@
 //     number: 387583553
 // }
 // ]
-  
-    
+
+
 // console.log(object[2].name+ object[2].age);
-  
 
 
- 
+
+
 
 // let arr=["akib", "rakib", "sakib","sofik", "joy", "roy", "alif","raisul"]
 
@@ -151,12 +151,12 @@
 
 // function display() {
 //   console.log("raisul islam hamim");
-  
+
 // }
 // display()
 // function display(name) {
 //   console.log(`Welcome ${name} sir`);
-  
+
 // }
 // display("Raisul Islam Hamim");
 
@@ -186,8 +186,20 @@
 
 // }
 
-function username(name){
-    let utterance = new SpeechSynthesisUtterance(`Hello ${name} sir Good Morning`);
-speechSynthesis.speak(utterance);
+// function username(name){
+//     let utterance = new SpeechSynthesisUtterance(`Hello ${name} sir Good Morning`);
+// speechSynthesis.speak(utterance);
+// }
+// username("raisul islam hamim")
+
+let cha = (prompt("Enter single letter: "))
+if (cha == 'A' || cha == 'B' || cha == 'C' || cha == 'D' || cha == 'E' || cha == 'F' || cha == 'G' || cha == 'H' || 
+    cha == 'I' || cha == 'J' || cha == 'K' || cha == 'L' || cha == 'M' || cha == 'N' || cha == 'O' || cha == 'P' ||
+     cha == 'Q' || cha == 'R' || cha == 'S' || cha == 'T' || cha == 'U' || cha == 'V' || cha == 'W' || cha == 'X' ||
+      cha == 'Y' || cha == 'Z' ) {
+    console.log("Capital letter");
+
+} else {
+    console.log("Small letter");
+
 }
-username("raisul islam hamim")
