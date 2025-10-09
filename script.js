@@ -192,14 +192,17 @@
 // }
 // username("raisul islam hamim")
 
-let cha = (prompt("Enter single letter: "))
-if (cha == 'A' || cha == 'B' || cha == 'C' || cha == 'D' || cha == 'E' || cha == 'F' || cha == 'G' || cha == 'H' || 
-    cha == 'I' || cha == 'J' || cha == 'K' || cha == 'L' || cha == 'M' || cha == 'N' || cha == 'O' || cha == 'P' ||
-     cha == 'Q' || cha == 'R' || cha == 'S' || cha == 'T' || cha == 'U' || cha == 'V' || cha == 'W' || cha == 'X' ||
-      cha == 'Y' || cha == 'Z' ) {
-    console.log("Capital letter");
+// let cha = (prompt("Enter single letter: "))
+// if (cha == 'A' || cha == 'B' || cha == 'C' || cha == 'D' || cha == 'E' || cha == 'F' || cha == 'G' || cha == 'H' || 
+//     cha == 'I' || cha == 'J' || cha == 'K' || cha == 'L' || cha == 'M' || cha == 'N' || cha == 'O' || cha == 'P' ||
+//      cha == 'Q' || cha == 'R' || cha == 'S' || cha == 'T' || cha == 'U' || cha == 'V' || cha == 'W' || cha == 'X' ||
+//       cha == 'Y' || cha == 'Z' ) {
+//     console.log("Capital letter");
 
-} else {
-    console.log("Small letter");
+// } else {
+//     console.log("Small letter");
 
-}
+// }
+let x=10
+x>=10?console.log("Hi"):console.log("Bye");
+ 
