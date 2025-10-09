@@ -203,6 +203,20 @@
 //     console.log("Small letter");
 
 // }
-let x=10
-x>=10?console.log("Hi"):console.log("Bye");
+// let x=10
+// x>=10?console.log("Hi"):console.log("Bye");
  
+let mark=85
+
+if(mark<=100 && mark>=80){
+    console.log("A+");
+    
+
+}else if (mark<80 && mark>=70){
+    console.log("A");
+
+}else{
+    console.log("fail");
+    
+}
+
