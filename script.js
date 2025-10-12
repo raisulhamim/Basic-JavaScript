@@ -206,34 +206,37 @@
 // let x=10
 // x>=10?console.log("Hi"):console.log("Bye");
 
-let mark = Number(prompt("Enter your number: "))
+// let mark = Number(prompt("Enter your number: "))
 
-if (mark <= 100 && mark >= 80) {
-    console.log("A+");
+// if (mark <= 100 && mark >= 80) {
+//     console.log("A+");
 
 
-} else if (mark <=79 && mark >= 70) {
-    console.log("A");
+// } else if (mark <=79 && mark >= 70) {
+//     console.log("A");
 
-} else if (mark <=69 && mark >= 60) {
-    console.log("A-");
+// } else if (mark <=69 && mark >= 60) {
+//     console.log("A-");
 
-} else if (mark <=59 && mark >= 50) {
-    console.log("B");
+// } else if (mark <=59 && mark >= 50) {
+//     console.log("B");
 
-} else if (mark <=49 && mark >= 40) {
-    console.log("C");
+// } else if (mark <=49 && mark >= 40) {
+//     console.log("C");
 
-} else if (mark <=39 && mark >= 33) {
-    console.log("D");
+// } else if (mark <=39 && mark >= 33) {
+//     console.log("D");
 
-} else if (mark > 100) {
-    console.log("Enter a valid number");
+// } else if (mark > 100) {
+//     console.log("Enter a valid number");
 
-} else if (mark < 0) {
-    console.log("Enter a valid number");
+// } else if (mark < 0) {
+//     console.log("Enter a valid number");
 
-} else{
-    console.log("you are fail");
-}
-
+// } else{
+//     console.log("you are fail");
+// }
+let x = 100
+x > 50 ? x > 99 ? x >= 100 ? x > 95 ? x > 1 ? x > 101 ? console.log("hello girl")
+:console.log("Allah hafiz") : console.log("good bye"): console.log("ja shor"): console.log("k tui") : console.log("shor shor"): console.log("Bye");
+;
