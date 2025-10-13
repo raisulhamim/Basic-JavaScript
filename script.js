@@ -236,7 +236,14 @@
 // } else{
 //     console.log("you are fail");
 // }
-let x = 100
-x > 50 ? x > 99 ? x >= 100 ? x > 95 ? x > 1 ? x > 101 ? console.log("hello girl")
-:console.log("Allah hafiz") : console.log("good bye"): console.log("ja shor"): console.log("k tui") : console.log("shor shor"): console.log("Bye");
-;
+// let x = 100
+// x > 50 ? x > 99 ? x >= 100 ? x > 95 ? x > 1 ? x > 101 ? console.log("hello girl")
+// :console.log("Allah hafiz") : console.log("good bye"): console.log("ja shor"): console.log("k tui") : console.log("shor shor"): console.log("Bye");
+// ;
+
+
+let array=["rakib", "sakib","sojib","mojib","joy"];
+
+array.map(raisul=>{
+    console.log(raisul);
+})
