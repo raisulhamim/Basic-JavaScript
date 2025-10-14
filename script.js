@@ -241,9 +241,9 @@
 // :console.log("Allah hafiz") : console.log("good bye"): console.log("ja shor"): console.log("k tui") : console.log("shor shor"): console.log("Bye");
 // ;
 
+let user=Number(prompt("Enter a number : "))
+let array=[1,2,3,4,5,6,7,8,9,10];
 
-let array=["rakib", "sakib","sojib","mojib","joy"];
-
-array.map(raisul=>{
-    console.log(raisul);
+array.map((item,index)=>{
+    console.log(user + "X" + (index+1) + "=" + user*(index+1));
 })
