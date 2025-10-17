@@ -248,6 +248,15 @@
 //     console.log(user + "X" + (index+1) + "=" + user*(index+1));
 // })
 
-let heading= document.getElementById("heading")
+let heading= document.querySelector(".heading")
+let btn1= document.querySelector(".btn1")
+let btn2= document.querySelector(".btn2")
 
-heading.innerHTML="raisul"
+btn1.addEventListener('click', function(){
+    heading.style.color="red"
+
+})
+btn2.addEventListener('click', function(){
+    heading.style.color="black"
+
+})
