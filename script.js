@@ -248,15 +248,21 @@
 //     console.log(user + "X" + (index+1) + "=" + user*(index+1));
 // })
 
-let heading= document.querySelector(".heading")
-let btn1= document.querySelector(".btn1")
-let btn2= document.querySelector(".btn2")
+// let heading= document.querySelector(".heading")
+// let btn1= document.querySelector(".btn1")
+// let btn2= document.querySelector(".btn2")
 
-btn1.addEventListener('click', function(){
-    heading.style.color="red"
+// btn1.addEventListener('click', function(){
+//     heading.style.color="red"
 
-})
-btn2.addEventListener('click', function(){
-    heading.style.color="black"
+// })
+// btn2.addEventListener('click', function(){
+//     heading.style.color="black"
 
-})
+// })
+let count=0
+
+setInterval(()=>{
+    count++
+    console.log(count)
+},1000)
