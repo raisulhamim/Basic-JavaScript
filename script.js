@@ -261,8 +261,7 @@
 
 // })
 let count=0
-
-setInterval(()=>{
+setTimeout(()=>{
     count++
     console.log(count)
 },1000)
