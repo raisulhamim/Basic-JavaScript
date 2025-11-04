@@ -260,8 +260,15 @@
 //     heading.style.color="black"
 
 // })
-let count=0
-setTimeout(()=>{
-    count++
-    console.log(count)
-},1000)
+// let count=0
+// setTimeout(()=>{
+//     count++
+//     console.log(count)
+// },1000)
+
+
+let arr1=[1,2,3,4]
+let arr2=[1,12,13,14]
+
+
+console.log(...arr1,...arr2);
