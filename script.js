@@ -266,9 +266,60 @@
 //     console.log(count)
 // },1000)
 
+// 
+
+
 
 let arr1=[1,2,3,4]
 let arr2=[1,12,13,14]
 
 
 console.log(...arr1,...arr2);
+
+
+
+// Rest operator
+
+
+
+function display(n1,n2,...sajibkhan){
+    console.log(sajibkhan);
+    
+}
+
+display(12,23,23,2,4,2,4,2,5,2,5,2,4,3)
+
+
+
+//  Desturcting array
+
+let arr=[1,2,3,4,5,6,7]
+let [n1,n2,n3,...n]=arr
+
+console.log(n);
+
+// Desturcting object
+
+let thisobject=[
+    {
+    name:"hamim",
+    age:"22",
+    number:"388383838",
+    },
+    {
+    name:"tamim",
+    age:"22",
+    number:"3468863838",
+    },
+    {
+    name:"mahim",
+    age:"22",
+    number:"346383838",
+    }
+];
+
+thisobject.map(item=>{
+    let {name,age,number}=item
+    console.log(name);
+    
+})
