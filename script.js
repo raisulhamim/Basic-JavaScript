@@ -325,18 +325,41 @@
 // })
 
 
-function cooking(callback){
-    console.log("cooking");
-    setTimeout(() => {
-        callback()
-    },5000)
+// function cooking(callback){
+//     console.log("cooking");
+//     setTimeout(() => {
+//         callback()
+//     },5000)
     
-}
+// }
 
-function eating() {
-     console.log("eating");
+// function eating() {
+//      console.log("eating");
 
          
-}
+// }
 
-cooking(eating)
+// cooking(eating)
+
+
+let  foodready=false
+
+let promise = new Promise(function (resolve,reject) {
+    if(foodready){
+        resolve("your food is ready");
+    }else{
+        reject("your food is bured");
+
+    }
+    
+})
+
+promise
+.then((success)=>{
+    console.log(success);
+    
+})
+.catch((error)=>{
+    console.log(error);
+    
+})
